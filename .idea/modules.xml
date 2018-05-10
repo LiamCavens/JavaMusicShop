@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaMusicShop.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaMusicShop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaMusicShop_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaMusicShop_main.iml" group="JavaMusicShop" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaMusicShop_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaMusicShop_test.iml" group="JavaMusicShop" />
+    </modules>
+  </component>
+</project>
