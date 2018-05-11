@@ -2,5 +2,5 @@ package behaviors;
 
 public interface Sellable {
 
-    void sell();
+    double calculateMarkUp();
 }

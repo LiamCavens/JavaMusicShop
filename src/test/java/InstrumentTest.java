@@ -13,8 +13,8 @@ public class InstrumentTest {
 
     @Before
     public void setUp() {
-        piano = new Piano("Piano", 120, 240, "Yamaha", "Grand", "Black", "Plasticine", InstrumentType.KEYBOARD, 3);
-        bagpipe = new Bagpipe("Something you blow on", 100, 200, "Wallace", "Large", "Brown", "Sheepskin", InstrumentType.WOODWIND, "Blackwatch");
+        piano = new Piano("Piano", 120, 240, "Yamaha", "Grand", "Black", "Plasticine", 3);
+        bagpipe = new Bagpipe("Something you blow on", 100, 200, "Wallace", "Large", "Brown", "Sheepskin", "Blackwatch");
     }
 
     @Test

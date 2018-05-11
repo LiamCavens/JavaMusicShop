@@ -26,7 +26,7 @@ public abstract class Item implements Sellable {
         return sellPrice;
     }
 
-    public void sell(){
-        //add something here when Shop Class is created.
+    public double calculateMarkUp(){
+        return this.sellPrice - this.buyPrice;
     }
 }
