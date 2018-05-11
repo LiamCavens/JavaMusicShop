@@ -37,4 +37,11 @@ public class Shop {
         customer.purchaseItem(item);
         this.till += item.getSellPrice();
     }
+
+    public int calculateGrossProfit(Item item){
+        int result = 0;
+        result -= item.getBuyPrice();
+        result += item.getSellPrice();
+        return result;
+    }
 }

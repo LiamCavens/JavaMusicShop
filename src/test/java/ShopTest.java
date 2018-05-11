@@ -47,4 +47,9 @@ public class ShopTest {
         assertEquals(1100, shop.getTill(), 0.01);
         assertEquals(300, customer.getWallet(), 0.01);
     }
+
+    @Test
+    public void calculatePossibleProfit() {
+        assertEquals(100, shop.calculateGrossProfit(bagpipe), 0.01);
+    }
 }
