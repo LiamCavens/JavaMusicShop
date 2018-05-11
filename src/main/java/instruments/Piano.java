@@ -2,7 +2,7 @@ package instruments;
 
 import behaviors.Playable;
 
-public class Piano extends instruments.Instrument implements Playable {
+public class Piano extends instruments.Instrument {
 
     int pedals;
 

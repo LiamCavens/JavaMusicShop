@@ -1,8 +1,9 @@
 package instruments;
 
+import behaviors.Playable;
 import items.Item;
 
-public abstract class Instrument extends Item {
+public abstract class Instrument extends Item implements Playable {
 
     String make;
     String model;

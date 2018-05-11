@@ -1,3 +1,4 @@
+import instruments.Bagpipe;
 import instruments.InstrumentType;
 import instruments.Piano;
 import org.junit.Before;
@@ -8,10 +9,12 @@ import static org.junit.Assert.assertEquals;
 public class InstrumentTest {
 
     private Piano piano;
+    private Bagpipe bagpipe;
 
     @Before
-    public void before() {
+    public void setUp() {
         piano = new Piano("Piano", 120, 240, "Yamaha", "Grand", "Black", "Plasticine", InstrumentType.KEYBOARD, 3);
+        bagpipe = new Bagpipe("Something you blow on", 100, 200, "Wallace", "Large", "Brown", "Sheepskin", InstrumentType.WOODWIND, "Blackwatch");
     }
 
     @Test
@@ -57,5 +60,11 @@ public class InstrumentTest {
     @Test
     public void hasPedels() {
         assertEquals(3, piano.getPedals());
+    }
+
+    @Test
+    public void canPlay() {
+        System.out.println(bagpipe.play());
+        assertEquals("Screaming Giraffe noises", bagpipe.play());
     }
 }
